@@ -1,0 +1,23 @@
+.Attribution {
+  background-color: rgba(90, 52, 79, 0.8);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .Attribution-div {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: #c5d7bd;
+    border-radius: 3px;
+  }
+  h3 {
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  a {
+    color: #5a344f;
+    text-decoration: none;
+  }
+}

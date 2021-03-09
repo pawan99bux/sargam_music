@@ -1,0 +1,108 @@
+.Developer {
+  // background-color: whitesmoke;
+
+  .Developer-head {
+    text-transform: uppercase;
+    background-color: #5a344f;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .Developer-profile {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #c5d7bd;
+    padding: 5px;
+    .Developer-profileCard {
+      background-color: rgba(90, 52, 79, 0.8);
+      text-align: center;
+      flex: 1 1 200px;
+      img {
+        border-radius: 50%;
+        border: 1px solid #000;
+        padding: 2px;
+        width: 200px;
+      }
+      .Card-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(90, 52, 79, 0.1);
+        h3,
+        p {
+          padding: 10px;
+          text-transform: uppercase;
+        }
+        h3 {
+          color: white;
+          font-size: 1.3rem;
+        }
+        p {
+          color: gainsboro;
+        }
+      }
+    }
+
+    .Developer-profileDetails {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+        color: black;
+        padding: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .Card-btn {
+        background-color: rgba(90, 52, 79, 0.8);
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        a {
+          padding: 15px;
+          color: white;
+          text-transform: lowercase;
+        }
+
+        a:hover {
+          opacity: 0.8;
+        }
+
+        a:nth-child(1) {
+          background: #3b5998;
+        }
+
+        a:nth-child(2) {
+          background: #333;
+        }
+
+        a:nth-child(3) {
+          background: #125688;
+        }
+
+        a:nth-child(4) {
+          background: #bc2a8d;
+        }
+
+        a:nth-child(5) {
+          background: #e74e6d;
+        }
+      }
+    }
+  }
+}
